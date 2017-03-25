@@ -39,3 +39,20 @@ Route::get('matakuliah/tambah','matakuliahController@tambah');
 
 Route::get('ruangan','ruanganController@awal');
 Route::get('ruangan/tambah','ruanganController@tambah');
+
+Route::get('pengguna/{pengguna}','PenggunaController@lihat');
+Route::post('pengguna/simpan','PenggunaController@simpan');
+Route::get('pengguna/edit/{pengguna}','PenggunaController@edit');
+Route::post('pengguna/edit/{pengguna}','PenggunaController@update');
+Route::get('pengguna/hapus/{pengguna}','PenggunaController@hapus');
+
+Route::get('matakuliah/{matakuliah}','matakuliahController@lihat');
+Route::post('matakuliah/simpan','matakuliahController@simpan');
+Route::get('matakuliah/edit/{matakuliah}','matakuliahController@edit');
+Route::post('matakuliah/edit/{matakuliah}','matakuliahController@update');
+Route::get('matakuliah/hapus/{matakuliah}','matakuliahController@hapus');
+
+Route::post('ruangan/simpan','ruanganController@simpan');
+Route::get('ruangan/edit/{ruangan}','ruanganController@edit');
+Route::post('ruangan/edit/{ruangan}','ruanganController@update');
+Route::get('ruangan/hapus/{ruangan}','ruanganController@hapus');
