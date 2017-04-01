@@ -71,8 +71,19 @@
 		@endif
 		@yield('çontainer')
 	</div>
-	<nav class="conta">
-		
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	<footer class="container">
+		<!-- please dont delete this -->
+		created by <a href="http://twitter.com/izmy_dinda"><span><i class="fa fa-twitter" style="color:#1da1f2"></i>@izmy_dinda</span></a>
+		<!--/ please dont delete this -->
+		</footer>	
 	</nav>
+	<script type="text/javascript" src="{{asset('component/jquery/dist/jquery.min.js')}}"></script>
+	<script type="text/javascript" src="{{asset('component/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+	</script>
 </body>
 </html>
