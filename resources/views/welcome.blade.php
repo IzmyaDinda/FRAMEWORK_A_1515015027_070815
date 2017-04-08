@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Nama : Dinda Izmya Nurpadillah</div>
-                <div class="tittle">NIM : 1515015027</div>
+                <div class="title">Nama : Desy Mila Santi</div>
+                <div class="title">NIM : 1515015048</div>
             </div>
         </div>
     </body>
